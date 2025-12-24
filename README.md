@@ -1,4 +1,4 @@
-# CQRS-implementaton
+# CQRS-implementation
 ✅ First: What You Must Deeply Understand
 1️⃣ The Problem CQRS Solves
 
