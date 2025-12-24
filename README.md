@@ -384,3 +384,21 @@ CI/CD
 Docker setup
 
 Contributors friendly
+
+| Step   | Focus Area                        | What You Must Understand                            | Key Outcomes                                          |
+| ------ | --------------------------------- | --------------------------------------------------- | ----------------------------------------------------- |
+| **1**  | Foundation of System Architecture | Monolith vs Layered Architecture, CRUD limitations  | Understand why traditional systems struggle           |
+| **2**  | Performance & Scalability Basics  | Read-heavy vs Write-heavy systems, bottlenecks      | Understand why high-scale systems need separation     |
+| **3**  | Core CQRS Concept                 | Difference between Commands & Queries               | Know why CQRS splits responsibilities                 |
+| **4**  | Command Model (Write Side)**      | Business rules, validation, transactional integrity | Understand how writes must guarantee correctness      |
+| **5**  | Query Model (Read Side)**         | Read optimization, denormalization, fast queries    | Understand why reads prioritize speed                 |
+| **6**  | Read/Write Splitting              | Primary DB vs Replica DB, load balancing            | Understand how scaling reads improves performance     |
+| **7**  | Eventual Consistency              | Strong vs Eventual consistency, acceptable delays   | Know why slight delay is fine in real life            |
+| **8**  | Synchronization Mechanisms        | Data replication, change data capture, events       | Understand how write DB and read DB stay in sync      |
+| **9**  | Domain-Driven Design Basics       | Domain model, aggregates, bounded contexts          | Understand how CQRS fits into real-world domains      |
+| **10** | Messaging Concepts                | Message queues, events, async processing            | Know how systems communicate in CQRS                  |
+| **11** | Advanced CQRS (Optional)          | Event sourcing concept                              | Know difference between state storage & event storage |
+| **12** | Reliability Concepts              | Idempotency, retries, saga pattern, outbox pattern  | Understand stability & failure handling               |
+| **13** | Tradeoffs & When NOT to Use CQRS  | Complexity, maintenance cost, overengineering risks | Know when CQRS is worth it vs overkill                |
+| **14** | Real-World Case Studies           | Banking, ecommerce, analytics platforms             | See practical justification & impact                  |
+| **15** | Architecture Documentation        | Diagrams, flows, consistency scenarios              | Be able to explain CQRS confidently to juries         |
