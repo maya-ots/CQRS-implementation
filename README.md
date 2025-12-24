@@ -4,7 +4,7 @@
 
 Before learning CQRS, understand why it exists.
 
-Traditional systems use one model & one database workflow:
+Traditional systems use one model & one database workflow
 
 Same database tables for reading and writing
 
